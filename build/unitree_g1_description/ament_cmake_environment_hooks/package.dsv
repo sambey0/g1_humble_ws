@@ -1,0 +1,4 @@
+source;share/unitree_g1_description/local_setup.bash
+source;share/unitree_g1_description/local_setup.dsv
+source;share/unitree_g1_description/local_setup.sh
+source;share/unitree_g1_description/local_setup.zsh

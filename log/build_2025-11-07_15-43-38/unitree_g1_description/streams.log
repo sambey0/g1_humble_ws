@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/home/sam/g1_humble_ws/build/unitree_g1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sam/g1_humble_ws/build/unitree_g1_description -- -j12 -l12
+[0.078s] Invoked command in '/home/sam/g1_humble_ws/build/unitree_g1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sam/g1_humble_ws/build/unitree_g1_description -- -j12 -l12
+[0.086s] Invoking command in '/home/sam/g1_humble_ws/build/unitree_g1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sam/g1_humble_ws/build/unitree_g1_description
+[0.092s] -- Install configuration: ""
+[0.094s] -- Execute custom install script
+[0.094s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/ament_index/resource_index/package_run_dependencies/unitree_g1_description
+[0.094s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/ament_index/resource_index/parent_prefix_path/unitree_g1_description
+[0.095s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/ament_prefix_path.dsv
+[0.096s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/path.sh
+[0.096s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/path.dsv
+[0.097s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.bash
+[0.097s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.sh
+[0.097s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.zsh
+[0.097s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.dsv
+[0.098s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/package.dsv
+[0.105s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/ament_index/resource_index/packages/unitree_g1_description
+[0.105s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/cmake/unitree_g1_descriptionConfig.cmake
+[0.105s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/cmake/unitree_g1_descriptionConfig-version.cmake
+[0.106s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/package.xml
+[0.107s] Invoked command in '/home/sam/g1_humble_ws/build/unitree_g1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sam/g1_humble_ws/build/unitree_g1_description
