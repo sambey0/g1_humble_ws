@@ -1,7 +1,3 @@
-Here you go—tight, clean, and copy-paste ready.
-
----
-
 # g1_humble_ws
 
 ROS 2 Humble workspace to visualize and simulate **Unitree G1** in **RViz** and **Gazebo Classic**.
@@ -109,9 +105,3 @@ g1_humble_ws/
 │  ├─ package.xml, CMakeLists.txt
 ├─ build/ install/ log/     # colcon artifacts
 ```
-
----
-
-## License
-
-See [LICENSE](./LICENSE).
