@@ -1,2 +1,1 @@
-source;share/unitree_g1_description/environment/ament_prefix_path.sh
-source;share/unitree_g1_description/environment/path.sh
+/home/sam/g1_humble_ws/unitree_g1_description/build/unitree_g1_description/ament_cmake_environment_hooks/local_setup.dsv

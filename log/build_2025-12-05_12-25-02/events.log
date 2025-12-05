@@ -1,0 +1,317 @@
+[0.000000] (-) TimerEvent: {}
+[0.000377] (unitree_g1_description) JobQueued: {'identifier': 'unitree_g1_description', 'dependencies': OrderedDict()}
+[0.000480] (unitree_g1_description) JobStarted: {'identifier': 'unitree_g1_description'}
+[0.009338] (unitree_g1_description) JobProgress: {'identifier': 'unitree_g1_description', 'progress': 'cmake'}
+[0.012855] (unitree_g1_description) Command: {'cmd': ['/usr/bin/cmake', '/home/sam/g1_humble_ws/unitree_g1_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sam/g1_humble_ws/install/unitree_g1_description'], 'cwd': '/home/sam/g1_humble_ws/build/unitree_g1_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/g1_humble_ws/unitree_g1_description'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/g1_humble_ws/unitree_g1_description/install:/home/sam/g1_humble_ws/install'), ('LOGNAME', 'sam'), ('NAME', 'LIBL-GZTMKY3'), ('WSL_INTEROP', '/run/WSL/141794_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sbatra/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sbatra/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/g1_humble_ws/unitree_g1_description/install/unitree_g1_description:/home/sam/g1_humble_ws/install/unitree_g1_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:facb1bfb-4f89-4331-9c82-abcc96e1b354'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/sam/g1_humble_ws/build/unitree_g1_description'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/g1_humble_ws/unitree_g1_description/install/unitree_g1_description:/home/sam/g1_humble_ws/install/unitree_g1_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.097907] (-) TimerEvent: {}
+[0.198598] (-) TimerEvent: {}
+[0.299031] (-) TimerEvent: {}
+[0.399682] (-) TimerEvent: {}
+[0.436957] (unitree_g1_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501177] (-) TimerEvent: {}
+[0.602166] (-) TimerEvent: {}
+[0.702860] (-) TimerEvent: {}
+[0.803308] (-) TimerEvent: {}
+[0.904136] (-) TimerEvent: {}
+[1.005037] (-) TimerEvent: {}
+[1.105808] (-) TimerEvent: {}
+[1.206392] (-) TimerEvent: {}
+[1.293064] (unitree_g1_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.308872] (-) TimerEvent: {}
+[1.409469] (-) TimerEvent: {}
+[1.510229] (-) TimerEvent: {}
+[1.610738] (-) TimerEvent: {}
+[1.716261] (-) TimerEvent: {}
+[1.816826] (-) TimerEvent: {}
+[1.847703] (unitree_g1_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.917124] (-) TimerEvent: {}
+[2.019552] (-) TimerEvent: {}
+[2.085554] (unitree_g1_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.092454] (unitree_g1_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.094385] (unitree_g1_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.095926] (unitree_g1_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.099494] (unitree_g1_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.124895] (-) TimerEvent: {}
+[2.225365] (-) TimerEvent: {}
+[2.325760] (-) TimerEvent: {}
+[2.327912] (unitree_g1_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.334519] (unitree_g1_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.334896] (unitree_g1_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.337189] (unitree_g1_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.376336] (unitree_g1_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.426103] (-) TimerEvent: {}
+[2.527931] (-) TimerEvent: {}
+[2.554281] (unitree_g1_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.633558] (-) TimerEvent: {}
+[2.645073] (unitree_g1_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.696944] (unitree_g1_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.733782] (-) TimerEvent: {}
+[2.813042] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.813256] (unitree_g1_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.813326] (unitree_g1_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.814013] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.822994] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.825748] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.834025] (-) TimerEvent: {}
+[2.848627] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.848971] (unitree_g1_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.851861] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.853570] (unitree_g1_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.857209] (unitree_g1_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.859099] (unitree_g1_description) StdoutLine: {'line': b'-- Build files have been written to: /home/sam/g1_humble_ws/build/unitree_g1_description\n'}
+[2.875693] (unitree_g1_description) CommandEnded: {'returncode': 0}
+[2.876242] (unitree_g1_description) JobProgress: {'identifier': 'unitree_g1_description', 'progress': 'build'}
+[2.876274] (unitree_g1_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sam/g1_humble_ws/build/unitree_g1_description', '--', '-j12', '-l12'], 'cwd': '/home/sam/g1_humble_ws/build/unitree_g1_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/g1_humble_ws/unitree_g1_description'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/g1_humble_ws/unitree_g1_description/install:/home/sam/g1_humble_ws/install'), ('LOGNAME', 'sam'), ('NAME', 'LIBL-GZTMKY3'), ('WSL_INTEROP', '/run/WSL/141794_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sbatra/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sbatra/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/g1_humble_ws/unitree_g1_description/install/unitree_g1_description:/home/sam/g1_humble_ws/install/unitree_g1_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:facb1bfb-4f89-4331-9c82-abcc96e1b354'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/sam/g1_humble_ws/build/unitree_g1_description'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/g1_humble_ws/unitree_g1_description/install/unitree_g1_description:/home/sam/g1_humble_ws/install/unitree_g1_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[2.929943] (unitree_g1_description) CommandEnded: {'returncode': 0}
+[2.931323] (unitree_g1_description) JobProgress: {'identifier': 'unitree_g1_description', 'progress': 'install'}
+[2.934397] (-) TimerEvent: {}
+[2.945576] (unitree_g1_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sam/g1_humble_ws/build/unitree_g1_description'], 'cwd': '/home/sam/g1_humble_ws/build/unitree_g1_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/g1_humble_ws/unitree_g1_description'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sam/g1_humble_ws/unitree_g1_description/install:/home/sam/g1_humble_ws/install'), ('LOGNAME', 'sam'), ('NAME', 'LIBL-GZTMKY3'), ('WSL_INTEROP', '/run/WSL/141794_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sbatra/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sbatra/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sam/g1_humble_ws/unitree_g1_description/install/unitree_g1_description:/home/sam/g1_humble_ws/install/unitree_g1_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:facb1bfb-4f89-4331-9c82-abcc96e1b354'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/sam/g1_humble_ws/build/unitree_g1_description'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sam/g1_humble_ws/unitree_g1_description/install/unitree_g1_description:/home/sam/g1_humble_ws/install/unitree_g1_description:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[2.954552] (unitree_g1_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.954838] (unitree_g1_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.955968] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof.urdf\n'}
+[2.967411] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof.xml\n'}
+[2.989111] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof_mode_10.urdf\n'}
+[3.001918] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof_rev_1_0.urdf\n'}
+[3.012702] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof_rev_1_0.xml\n'}
+[3.023210] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof.urdf\n'}
+[3.032499] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof.xml\n'}
+[3.036946] (-) TimerEvent: {}
+[3.045383] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist.urdf\n'}
+[3.059181] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist.xml\n'}
+[3.068532] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_rev_1_0.urdf\n'}
+[3.080317] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_rev_1_0.xml\n'}
+[3.093275] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_with_hand_rev_1_0.urdf\n'}
+[3.108205] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_with_hand_rev_1_0.xml\n'}
+[3.123048] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_11.urdf\n'}
+[3.133490] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_12.urdf\n'}
+[3.137303] (-) TimerEvent: {}
+[3.143329] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_13.urdf\n'}
+[3.156451] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_14.urdf\n'}
+[3.167599] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_15.urdf\n'}
+[3.179326] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_16.urdf\n'}
+[3.191018] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0.urdf\n'}
+[3.201323] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0.xml\n'}
+[3.217603] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0_with_inspire_hand_DFQ.urdf\n'}
+[3.230044] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0_with_inspire_hand_FTP.urdf\n'}
+[3.237720] (-) TimerEvent: {}
+[3.241482] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand.urdf\n'}
+[3.252390] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand.xml\n'}
+[3.262108] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand_rev_1_0.urdf\n'}
+[3.280865] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand_rev_1_0.xml\n'}
+[3.296412] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_comp.urdf\n'}
+[3.307285] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_dual_arm.urdf\n'}
+[3.317515] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_dual_arm.xml\n'}
+[3.332822] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/L_hand_base_link.STL\n'}
+[3.338055] (-) TimerEvent: {}
+[3.345929] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link11_L.STL\n'}
+[3.356281] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link11_R.STL\n'}
+[3.366234] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link12_L.STL\n'}
+[3.388990] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link12_R.STL\n'}
+[3.397012] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link13_L.STL\n'}
+[3.408499] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link13_R.STL\n'}
+[3.418282] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link14_L.STL\n'}
+[3.428268] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link14_R.STL\n'}
+[3.441492] (-) TimerEvent: {}
+[3.445824] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link15_L.STL\n'}
+[3.457012] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link15_R.STL\n'}
+[3.466267] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link16_L.STL\n'}
+[3.476567] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link16_R.STL\n'}
+[3.488358] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link17_L.STL\n'}
+[3.507438] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link17_R.STL\n'}
+[3.519272] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link18_L.STL\n'}
+[3.530156] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link18_R.STL\n'}
+[3.540393] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link19_L.STL\n'}
+[3.541641] (-) TimerEvent: {}
+[3.549927] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link19_R.STL\n'}
+[3.570022] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link20_L.STL\n'}
+[3.585947] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link20_R.STL\n'}
+[3.597513] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link21_L.STL\n'}
+[3.609403] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link21_R.STL\n'}
+[3.628165] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link22_L.STL\n'}
+[3.637808] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link22_R.STL\n'}
+[3.641856] (-) TimerEvent: {}
+[3.650565] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/R_hand_base_link.STL\n'}
+[3.660933] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/d455_link.STL\n'}
+[3.670453] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/head_link.STL\n'}
+[3.685816] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/head_servo_link.STL\n'}
+[3.698619] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ankle_pitch_link.STL\n'}
+[3.711549] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ankle_roll_link.STL\n'}
+[3.724002] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_base_link.STL\n'}
+[3.742062] (-) TimerEvent: {}
+[3.746321] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_elbow_link.STL\n'}
+[3.757816] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_index_0_link.STL\n'}
+[3.767607] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_index_1_link.STL\n'}
+[3.779817] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_middle_0_link.STL\n'}
+[3.789757] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_middle_1_link.STL\n'}
+[3.807765] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_palm_link.STL\n'}
+[3.823460] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_thumb_0_link.STL\n'}
+[3.833522] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_thumb_1_link.STL\n'}
+[3.842438] (-) TimerEvent: {}
+[3.843470] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_thumb_2_link.STL\n'}
+[3.860959] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hip_pitch_link.STL\n'}
+[3.872521] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hip_roll_link.STL\n'}
+[3.884018] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hip_yaw_link.STL\n'}
+[3.894617] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_index_1.STL\n'}
+[3.905349] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_index_2.STL\n'}
+[3.927003] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_index_force_sensor_1.STL\n'}
+[3.936982] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_index_force_sensor_2.STL\n'}
+[3.942797] (-) TimerEvent: {}
+[3.947688] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_index_force_sensor_3.STL\n'}
+[3.957783] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_knee_link.STL\n'}
+[3.967195] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_little_1.STL\n'}
+[3.981598] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_little_2.STL\n'}
+[3.999330] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_little_force_sensor_1.STL\n'}
+[4.009262] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_little_force_sensor_2.STL\n'}
+[4.019230] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_little_force_sensor_3.STL\n'}
+[4.036199] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_middle_1.STL\n'}
+[4.043177] (-) TimerEvent: {}
+[4.045434] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_middle_2.STL\n'}
+[4.056929] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_middle_force_sensor_1.STL\n'}
+[4.067307] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_middle_force_sensor_2.STL\n'}
+[4.077169] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_middle_force_sensor_3.STL\n'}
+[4.095652] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_palm_force_sensor.STL\n'}
+[4.107730] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ring_1.STL\n'}
+[4.118554] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ring_2.STL\n'}
+[4.128874] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ring_force_sensor_1.STL\n'}
+[4.139510] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ring_force_sensor_2.STL\n'}
+[4.148841] (-) TimerEvent: {}
+[4.153736] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ring_force_sensor_3.STL\n'}
+[4.168389] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_rubber_hand.STL\n'}
+[4.179134] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_shoulder_pitch_link.STL\n'}
+[4.191916] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_shoulder_roll_link.STL\n'}
+[4.208842] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_shoulder_yaw_link.STL\n'}
+[4.217363] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_1.STL\n'}
+[4.231507] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_2.STL\n'}
+[4.240964] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_3.STL\n'}
+[4.249093] (-) TimerEvent: {}
+[4.250542] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_4.STL\n'}
+[4.267053] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_force_sensor_1.STL\n'}
+[4.278715] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_force_sensor_2.STL\n'}
+[4.289717] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_force_sensor_3.STL\n'}
+[4.300984] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_force_sensor_4.STL\n'}
+[4.320878] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_swing.STL\n'}
+[4.331363] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_pitch_link.STL\n'}
+[4.343951] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_pitch_link_5010.STL\n'}
+[4.349380] (-) TimerEvent: {}
+[4.353183] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_roll_link.STL\n'}
+[4.363314] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_roll_link_5010.STL\n'}
+[4.381440] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_roll_rubber_hand.STL\n'}
+[4.393562] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_yaw_link.STL\n'}
+[4.404126] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_yaw_link_5010.STL\n'}
+[4.413676] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/logo_link.STL\n'}
+[4.423420] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/pelvis.STL\n'}
+[4.435488] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/pelvis_contour_link.STL\n'}
+[4.449594] (-) TimerEvent: {}
+[4.451021] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ankle_pitch_link.STL\n'}
+[4.460857] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ankle_roll_link.STL\n'}
+[4.471416] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_base_link.STL\n'}
+[4.497536] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_elbow_link.STL\n'}
+[4.511078] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_index_0_link.STL\n'}
+[4.520796] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_index_1_link.STL\n'}
+[4.530085] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_middle_0_link.STL\n'}
+[4.540601] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_middle_1_link.STL\n'}
+[4.553764] (-) TimerEvent: {}
+[4.554354] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_palm_link.STL\n'}
+[4.568137] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_thumb_0_link.STL\n'}
+[4.577994] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_thumb_1_link.STL\n'}
+[4.588676] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_thumb_2_link.STL\n'}
+[4.598903] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hip_pitch_link.STL\n'}
+[4.620111] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hip_roll_link.STL\n'}
+[4.629125] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hip_yaw_link.STL\n'}
+[4.641341] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_index_1.STL\n'}
+[4.651328] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_index_2.STL\n'}
+[4.654041] (-) TimerEvent: {}
+[4.660965] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_index_force_sensor_1.STL\n'}
+[4.677418] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_index_force_sensor_2.STL\n'}
+[4.691305] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_index_force_sensor_3.STL\n'}
+[4.702840] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_knee_link.STL\n'}
+[4.714833] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_little_1.STL\n'}
+[4.737597] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_little_2.STL\n'}
+[4.749504] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_little_force_sensor_1.STL\n'}
+[4.754245] (-) TimerEvent: {}
+[4.760383] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_little_force_sensor_2.STL\n'}
+[4.772357] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_little_force_sensor_3.STL\n'}
+[4.782976] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_middle_1.STL\n'}
+[4.802416] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_middle_2.STL\n'}
+[4.817579] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_middle_force_sensor_1.STL\n'}
+[4.827177] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_middle_force_sensor_2.STL\n'}
+[4.837144] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_middle_force_sensor_3.STL\n'}
+[4.854494] (-) TimerEvent: {}
+[4.856964] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_palm_force_sensor.STL\n'}
+[4.871288] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ring_1.STL\n'}
+[4.881065] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ring_2.STL\n'}
+[4.893002] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ring_force_sensor_1.STL\n'}
+[4.912984] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ring_force_sensor_2.STL\n'}
+[4.919993] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ring_force_sensor_3.STL\n'}
+[4.933279] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_rubber_hand.STL\n'}
+[4.943160] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_shoulder_pitch_link.STL\n'}
+[4.952650] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_shoulder_roll_link.STL\n'}
+[4.960902] (-) TimerEvent: {}
+[4.965964] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_shoulder_yaw_link.STL\n'}
+[4.976084] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_1.STL\n'}
+[4.988116] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_2.STL\n'}
+[4.998593] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_3.STL\n'}
+[5.009034] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_4.STL\n'}
+[5.026766] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_force_sensor_1.STL\n'}
+[5.039103] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_force_sensor_2.STL\n'}
+[5.049404] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_force_sensor_3.STL\n'}
+[5.060278] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_force_sensor_4.STL\n'}
+[5.061105] (-) TimerEvent: {}
+[5.073364] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_pitch_link.STL\n'}
+[5.086873] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_pitch_link_5010.STL\n'}
+[5.098221] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_roll_link.STL\n'}
+[5.108084] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_roll_link_5010.STL\n'}
+[5.118676] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_roll_rubber_hand.STL\n'}
+[5.136877] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_yaw_link.STL\n'}
+[5.143753] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_yaw_link_5010.STL\n'}
+[5.154794] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_constraint_L_link.STL\n'}
+[5.161485] (-) TimerEvent: {}
+[5.164133] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_constraint_L_rod_link.STL\n'}
+[5.173942] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_constraint_R_link.STL\n'}
+[5.183535] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_constraint_R_rod_link.STL\n'}
+[5.202673] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_link.STL\n'}
+[5.218182] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_link_23dof_rev_1_0.STL\n'}
+[5.229146] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_link_rev_1_0.STL\n'}
+[5.241195] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_constraint_L.STL\n'}
+[5.258199] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_constraint_R.STL\n'}
+[5.261688] (-) TimerEvent: {}
+[5.268607] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_roll_link.STL\n'}
+[5.279184] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_roll_link_rev_1_0.STL\n'}
+[5.289026] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_support_link.STL\n'}
+[5.301320] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_yaw_link.STL\n'}
+[5.323315] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_yaw_link_rev_1_0.STL\n'}
+[5.334540] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/xl330_link.STL\n'}
+[5.345029] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/images/g1_23dof.png\n'}
+[5.354814] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/images/g1_29dof.png\n'}
+[5.364947] (-) TimerEvent: {}
+[5.372359] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/images/g1_29dof_with_hand.png\n'}
+[5.387003] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/images/g1_dual_arm.png\n'}
+[5.397852] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/inspire_hand/DFQ_left_hand.urdf\n'}
+[5.409410] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/inspire_hand/DFQ_right_hand.urdf\n'}
+[5.429101] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/inspire_hand/FTP_left_hand.urdf\n'}
+[5.436135] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/inspire_hand/FTP_right_hand.urdf\n'}
+[5.447331] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/inspire_hand/config.yaml\n'}
+[5.458071] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/launch/__pycache__/spawn_gazebo.launch.cpython-310.pyc\n'}
+[5.465158] (-) TimerEvent: {}
+[5.467493] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/launch/display.launch.py\n'}
+[5.485500] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/launch/spawn_gazebo.launch.py\n'}
+[5.494325] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/ament_index/resource_index/package_run_dependencies/unitree_g1_description\n'}
+[5.508767] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/ament_index/resource_index/parent_prefix_path/unitree_g1_description\n'}
+[5.520916] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/ament_prefix_path.sh\n'}
+[5.531779] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/ament_prefix_path.dsv\n'}
+[5.548375] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/path.sh\n'}
+[5.562612] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/path.dsv\n'}
+[5.565455] (-) TimerEvent: {}
+[5.573843] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.bash\n'}
+[5.585182] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.sh\n'}
+[5.595631] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.zsh\n'}
+[5.613098] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.dsv\n'}
+[5.628280] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/package.dsv\n'}
+[5.639741] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/ament_index/resource_index/packages/unitree_g1_description\n'}
+[5.652249] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/cmake/unitree_g1_descriptionConfig.cmake\n'}
+[5.665967] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/cmake/unitree_g1_descriptionConfig-version.cmake\n'}
+[5.666163] (-) TimerEvent: {}
+[5.677499] (unitree_g1_description) StdoutLine: {'line': b'-- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/package.xml\n'}
+[5.691958] (unitree_g1_description) CommandEnded: {'returncode': 0}
+[5.709507] (unitree_g1_description) JobEnded: {'identifier': 'unitree_g1_description', 'rc': 0}
+[5.716809] (-) EventReactorShutdown: {}

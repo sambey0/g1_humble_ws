@@ -1,0 +1,253 @@
+[0.014s] Invoking command in '/home/sam/g1_humble_ws/build/unitree_g1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sam/g1_humble_ws/unitree_g1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/g1_humble_ws/install/unitree_g1_description
+[0.437s] -- The C compiler identification is GNU 11.4.0
+[1.293s] -- The CXX compiler identification is GNU 11.4.0
+[1.847s] -- Detecting C compiler ABI info
+[2.085s] -- Detecting C compiler ABI info - done
+[2.092s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.094s] -- Detecting C compile features
+[2.096s] -- Detecting C compile features - done
+[2.099s] -- Detecting CXX compiler ABI info
+[2.328s] -- Detecting CXX compiler ABI info - done
+[2.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.335s] -- Detecting CXX compile features
+[2.337s] -- Detecting CXX compile features - done
+[2.376s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.554s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.645s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.697s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.813s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.813s] -- Configured cppcheck include dirs: 
+[2.813s] -- Configured cppcheck exclude dirs and/or files: 
+[2.814s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.823s] -- Added test 'lint_cmake' to check CMake code style
+[2.825s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.848s] -- Added test 'uncrustify' to check C / C++ code style
+[2.849s] -- Configured uncrustify additional arguments: 
+[2.852s] -- Added test 'xmllint' to check XML markup files
+[2.853s] -- Configuring done
+[2.857s] -- Generating done
+[2.859s] -- Build files have been written to: /home/sam/g1_humble_ws/build/unitree_g1_description
+[2.875s] Invoked command in '/home/sam/g1_humble_ws/build/unitree_g1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sam/g1_humble_ws/unitree_g1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sam/g1_humble_ws/install/unitree_g1_description
+[2.876s] Invoking command in '/home/sam/g1_humble_ws/build/unitree_g1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sam/g1_humble_ws/build/unitree_g1_description -- -j12 -l12
+[2.930s] Invoked command in '/home/sam/g1_humble_ws/build/unitree_g1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sam/g1_humble_ws/build/unitree_g1_description -- -j12 -l12
+[2.947s] Invoking command in '/home/sam/g1_humble_ws/build/unitree_g1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sam/g1_humble_ws/build/unitree_g1_description
+[2.954s] -- Install configuration: ""
+[2.954s] -- Execute custom install script
+[2.956s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof.urdf
+[2.967s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof.xml
+[2.989s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof_mode_10.urdf
+[3.002s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof_rev_1_0.urdf
+[3.012s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof_rev_1_0.xml
+[3.023s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof.urdf
+[3.032s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof.xml
+[3.045s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist.urdf
+[3.059s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist.xml
+[3.068s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_rev_1_0.urdf
+[3.080s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_rev_1_0.xml
+[3.093s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_with_hand_rev_1_0.urdf
+[3.108s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_with_hand_rev_1_0.xml
+[3.123s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_11.urdf
+[3.133s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_12.urdf
+[3.143s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_13.urdf
+[3.156s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_14.urdf
+[3.167s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_15.urdf
+[3.179s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_16.urdf
+[3.191s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0.urdf
+[3.201s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0.xml
+[3.217s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0_with_inspire_hand_DFQ.urdf
+[3.230s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0_with_inspire_hand_FTP.urdf
+[3.241s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand.urdf
+[3.252s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand.xml
+[3.262s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand_rev_1_0.urdf
+[3.281s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand_rev_1_0.xml
+[3.296s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_comp.urdf
+[3.307s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_dual_arm.urdf
+[3.317s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_dual_arm.xml
+[3.333s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/L_hand_base_link.STL
+[3.346s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link11_L.STL
+[3.356s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link11_R.STL
+[3.366s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link12_L.STL
+[3.389s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link12_R.STL
+[3.397s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link13_L.STL
+[3.408s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link13_R.STL
+[3.418s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link14_L.STL
+[3.428s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link14_R.STL
+[3.446s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link15_L.STL
+[3.457s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link15_R.STL
+[3.466s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link16_L.STL
+[3.476s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link16_R.STL
+[3.488s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link17_L.STL
+[3.507s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link17_R.STL
+[3.519s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link18_L.STL
+[3.530s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link18_R.STL
+[3.540s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link19_L.STL
+[3.550s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link19_R.STL
+[3.570s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link20_L.STL
+[3.586s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link20_R.STL
+[3.597s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link21_L.STL
+[3.609s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link21_R.STL
+[3.628s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link22_L.STL
+[3.638s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link22_R.STL
+[3.650s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/R_hand_base_link.STL
+[3.661s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/d455_link.STL
+[3.670s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/head_link.STL
+[3.686s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/head_servo_link.STL
+[3.698s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ankle_pitch_link.STL
+[3.711s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ankle_roll_link.STL
+[3.724s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_base_link.STL
+[3.746s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_elbow_link.STL
+[3.757s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_index_0_link.STL
+[3.767s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_index_1_link.STL
+[3.779s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_middle_0_link.STL
+[3.790s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_middle_1_link.STL
+[3.808s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_palm_link.STL
+[3.823s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_thumb_0_link.STL
+[3.833s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_thumb_1_link.STL
+[3.843s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hand_thumb_2_link.STL
+[3.861s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hip_pitch_link.STL
+[3.872s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hip_roll_link.STL
+[3.884s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_hip_yaw_link.STL
+[3.894s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_index_1.STL
+[3.905s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_index_2.STL
+[3.927s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_index_force_sensor_1.STL
+[3.937s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_index_force_sensor_2.STL
+[3.947s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_index_force_sensor_3.STL
+[3.957s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_knee_link.STL
+[3.967s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_little_1.STL
+[3.981s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_little_2.STL
+[3.999s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_little_force_sensor_1.STL
+[4.009s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_little_force_sensor_2.STL
+[4.019s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_little_force_sensor_3.STL
+[4.036s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_middle_1.STL
+[4.045s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_middle_2.STL
+[4.057s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_middle_force_sensor_1.STL
+[4.067s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_middle_force_sensor_2.STL
+[4.077s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_middle_force_sensor_3.STL
+[4.095s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_palm_force_sensor.STL
+[4.107s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ring_1.STL
+[4.118s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ring_2.STL
+[4.129s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ring_force_sensor_1.STL
+[4.139s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ring_force_sensor_2.STL
+[4.153s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_ring_force_sensor_3.STL
+[4.168s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_rubber_hand.STL
+[4.179s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_shoulder_pitch_link.STL
+[4.192s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_shoulder_roll_link.STL
+[4.209s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_shoulder_yaw_link.STL
+[4.217s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_1.STL
+[4.231s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_2.STL
+[4.241s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_3.STL
+[4.250s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_4.STL
+[4.267s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_force_sensor_1.STL
+[4.278s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_force_sensor_2.STL
+[4.289s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_force_sensor_3.STL
+[4.301s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_force_sensor_4.STL
+[4.321s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_thumb_swing.STL
+[4.331s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_pitch_link.STL
+[4.344s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_pitch_link_5010.STL
+[4.353s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_roll_link.STL
+[4.363s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_roll_link_5010.STL
+[4.381s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_roll_rubber_hand.STL
+[4.393s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_yaw_link.STL
+[4.404s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/left_wrist_yaw_link_5010.STL
+[4.413s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/logo_link.STL
+[4.423s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/pelvis.STL
+[4.435s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/pelvis_contour_link.STL
+[4.451s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ankle_pitch_link.STL
+[4.461s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ankle_roll_link.STL
+[4.471s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_base_link.STL
+[4.497s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_elbow_link.STL
+[4.511s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_index_0_link.STL
+[4.521s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_index_1_link.STL
+[4.530s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_middle_0_link.STL
+[4.540s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_middle_1_link.STL
+[4.554s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_palm_link.STL
+[4.568s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_thumb_0_link.STL
+[4.578s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_thumb_1_link.STL
+[4.589s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hand_thumb_2_link.STL
+[4.599s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hip_pitch_link.STL
+[4.620s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hip_roll_link.STL
+[4.629s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_hip_yaw_link.STL
+[4.641s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_index_1.STL
+[4.651s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_index_2.STL
+[4.661s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_index_force_sensor_1.STL
+[4.677s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_index_force_sensor_2.STL
+[4.691s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_index_force_sensor_3.STL
+[4.703s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_knee_link.STL
+[4.715s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_little_1.STL
+[4.737s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_little_2.STL
+[4.749s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_little_force_sensor_1.STL
+[4.760s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_little_force_sensor_2.STL
+[4.772s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_little_force_sensor_3.STL
+[4.783s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_middle_1.STL
+[4.802s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_middle_2.STL
+[4.817s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_middle_force_sensor_1.STL
+[4.827s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_middle_force_sensor_2.STL
+[4.837s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_middle_force_sensor_3.STL
+[4.857s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_palm_force_sensor.STL
+[4.871s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ring_1.STL
+[4.881s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ring_2.STL
+[4.893s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ring_force_sensor_1.STL
+[4.913s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ring_force_sensor_2.STL
+[4.920s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_ring_force_sensor_3.STL
+[4.933s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_rubber_hand.STL
+[4.943s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_shoulder_pitch_link.STL
+[4.952s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_shoulder_roll_link.STL
+[4.966s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_shoulder_yaw_link.STL
+[4.976s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_1.STL
+[4.988s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_2.STL
+[4.998s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_3.STL
+[5.009s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_4.STL
+[5.026s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_force_sensor_1.STL
+[5.039s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_force_sensor_2.STL
+[5.049s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_force_sensor_3.STL
+[5.060s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_thumb_force_sensor_4.STL
+[5.073s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_pitch_link.STL
+[5.087s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_pitch_link_5010.STL
+[5.098s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_roll_link.STL
+[5.108s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_roll_link_5010.STL
+[5.118s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_roll_rubber_hand.STL
+[5.137s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_yaw_link.STL
+[5.143s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/right_wrist_yaw_link_5010.STL
+[5.155s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_constraint_L_link.STL
+[5.164s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_constraint_L_rod_link.STL
+[5.174s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_constraint_R_link.STL
+[5.183s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_constraint_R_rod_link.STL
+[5.202s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_link.STL
+[5.218s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_link_23dof_rev_1_0.STL
+[5.229s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/torso_link_rev_1_0.STL
+[5.241s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_constraint_L.STL
+[5.258s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_constraint_R.STL
+[5.268s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_roll_link.STL
+[5.279s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_roll_link_rev_1_0.STL
+[5.289s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_support_link.STL
+[5.301s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_yaw_link.STL
+[5.323s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/waist_yaw_link_rev_1_0.STL
+[5.334s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/xl330_link.STL
+[5.345s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/images/g1_23dof.png
+[5.355s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/images/g1_29dof.png
+[5.372s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/images/g1_29dof_with_hand.png
+[5.387s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/images/g1_dual_arm.png
+[5.398s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/inspire_hand/DFQ_left_hand.urdf
+[5.409s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/inspire_hand/DFQ_right_hand.urdf
+[5.429s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/inspire_hand/FTP_left_hand.urdf
+[5.436s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/inspire_hand/FTP_right_hand.urdf
+[5.447s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/inspire_hand/config.yaml
+[5.458s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/launch/__pycache__/spawn_gazebo.launch.cpython-310.pyc
+[5.467s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/launch/display.launch.py
+[5.485s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/launch/spawn_gazebo.launch.py
+[5.494s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/ament_index/resource_index/package_run_dependencies/unitree_g1_description
+[5.508s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/ament_index/resource_index/parent_prefix_path/unitree_g1_description
+[5.521s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/ament_prefix_path.sh
+[5.531s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/ament_prefix_path.dsv
+[5.548s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/path.sh
+[5.562s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/environment/path.dsv
+[5.574s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.bash
+[5.585s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.sh
+[5.595s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.zsh
+[5.613s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/local_setup.dsv
+[5.628s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/package.dsv
+[5.639s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/ament_index/resource_index/packages/unitree_g1_description
+[5.652s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/cmake/unitree_g1_descriptionConfig.cmake
+[5.666s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/cmake/unitree_g1_descriptionConfig-version.cmake
+[5.677s] -- Symlinking: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/package.xml
+[5.692s] Invoked command in '/home/sam/g1_humble_ws/build/unitree_g1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sam/g1_humble_ws/build/unitree_g1_description

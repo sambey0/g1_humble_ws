@@ -1,5 +1,1 @@
-G1_remove_links: ["left_rubber_hand", "right_rubber_hand"]
-G1_remove_joints: ["left_hand_palm_joint", "right_hand_palm_joint"]
-
-L_hand_remove_links: ['left_wrist_yaw_link']
-R_hand_remove_links: ['right_wrist_yaw_link']
+/home/sam/g1_humble_ws/unitree_g1_description/inspire_hand/config.yaml

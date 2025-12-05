@@ -1,5 +1,5 @@
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable
 from launch.substitutions import LaunchConfiguration, Command
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
@@ -15,6 +15,15 @@ def generate_launch_description():
         get_package_share_directory('unitree_g1_description'),
         'urdf', 'g1_29dof.urdf'
     )
+    
+    # Get package share directory for Gazebo model path
+    pkg_share = get_package_share_directory('unitree_g1_description')
+    
+    # Set Gazebo model path to include this package
+    gazebo_model_path = SetEnvironmentVariable(
+        name='GAZEBO_MODEL_PATH',
+        value=os.path.dirname(pkg_share) + ':' + os.environ.get('GAZEBO_MODEL_PATH', '')
+    )
 
     # Include Gazebo Classic with ROS factory plugin
     gazebo_launch = IncludeLaunchDescription(
@@ -28,9 +37,10 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        gazebo_model_path,  # Add this line
         DeclareLaunchArgument('x', default_value='0.0'),
         DeclareLaunchArgument('y', default_value='0.0'),
-        DeclareLaunchArgument('z', default_value='1.0'),
+        DeclareLaunchArgument('z', default_value='1.5'),
         DeclareLaunchArgument('model', default_value=default_model),
 
         gazebo_launch,
