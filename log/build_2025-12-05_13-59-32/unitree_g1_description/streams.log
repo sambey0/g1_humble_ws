@@ -1,0 +1,47 @@
+[0.052s] Invoking command in '/home/sam/g1_humble_ws/build/unitree_g1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/g1_humble_ws/build/unitree_g1_description -- -j12 -l12
+[0.195s] Invoked command in '/home/sam/g1_humble_ws/build/unitree_g1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/g1_humble_ws/build/unitree_g1_description -- -j12 -l12
+[0.252s] Invoking command in '/home/sam/g1_humble_ws/build/unitree_g1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sam/g1_humble_ws/build/unitree_g1_description
+[0.286s] -- Install configuration: ""
+[0.286s] -- Execute custom install script
+[0.287s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof.urdf
+[0.287s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof.xml
+[0.287s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof_mode_10.urdf
+[0.288s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof_rev_1_0.urdf
+[0.288s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_23dof_rev_1_0.xml
+[0.289s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof.urdf
+[0.289s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof.xml
+[0.289s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist.urdf
+[0.289s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist.xml
+[0.289s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_rev_1_0.urdf
+[0.290s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_rev_1_0.xml
+[0.290s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_with_hand_rev_1_0.urdf
+[0.291s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_lock_waist_with_hand_rev_1_0.xml
+[0.291s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_11.urdf
+[0.291s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_12.urdf
+[0.291s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_13.urdf
+[0.291s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_14.urdf
+[0.291s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_15.urdf
+[0.291s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_mode_16.urdf
+[0.292s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0.urdf
+[0.292s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0.xml
+[0.292s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0_with_inspire_hand_DFQ.urdf
+[0.292s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_rev_1_0_with_inspire_hand_FTP.urdf
+[0.306s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand.urdf
+[0.309s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand.xml
+[0.311s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand_rev_1_0.urdf
+[0.311s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_29dof_with_hand_rev_1_0.xml
+[0.312s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_comp.urdf
+[0.312s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_dual_arm.urdf
+[0.313s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/urdf/g1_dual_arm.xml
+[0.318s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/L_hand_base_link.STL
+[0.338s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link11_L.STL
+[0.339s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link11_R.STL
+[0.339s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link12_L.STL
+[0.340s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link12_R.STL
+[0.340s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link13_L.STL
+[0.340s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link13_R.STL
+[0.340s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link14_L.STL
+[0.344s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link14_R.STL
+[0.344s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link15_L.STL
+[0.349s] -- Up-to-date symlink: /home/sam/g1_humble_ws/install/unitree_g1_description/share/unitree_g1_description/meshes/Link15_R.STL
+[0.351s] Invoked command in '/home/sam/g1_humble_ws/build/unitree_g1_description' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sam/g1_humble_ws/build/unitree_g1_description

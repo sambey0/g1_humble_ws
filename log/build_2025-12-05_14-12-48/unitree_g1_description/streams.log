@@ -1,0 +1,6 @@
+[0.033s] Invoking command in '/home/sam/g1_humble_ws/build/unitree_g1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/g1_humble_ws/build/unitree_g1_description -- -j12 -l12
+[0.110s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.472s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.489s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.625s] gmake: *** [Makefile:226: cmake_check_build_system] Interrupt
+[0.628s] Invoked command in '/home/sam/g1_humble_ws/build/unitree_g1_description' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/g1_humble_ws/build/unitree_g1_description -- -j12 -l12

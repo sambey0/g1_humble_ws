@@ -351,9 +351,3 @@ ament_cmake_symlink_install_files("/home/sam/g1_humble_ws/unitree_g1_description
 
 # install(FILES "/home/sam/g1_humble_ws/build/unitree_g1_description/ament_cmake_index/share/ament_index/resource_index/packages/unitree_g1_description" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/sam/g1_humble_ws/unitree_g1_description" FILES "/home/sam/g1_humble_ws/build/unitree_g1_description/ament_cmake_index/share/ament_index/resource_index/packages/unitree_g1_description" "DESTINATION" "share/ament_index/resource_index/packages")
-
-# install(FILES "/home/sam/g1_humble_ws/build/unitree_g1_description/ament_cmake_core/unitree_g1_descriptionConfig.cmake" "/home/sam/g1_humble_ws/build/unitree_g1_description/ament_cmake_core/unitree_g1_descriptionConfig-version.cmake" "DESTINATION" "share/unitree_g1_description/cmake")
-ament_cmake_symlink_install_files("/home/sam/g1_humble_ws/unitree_g1_description" FILES "/home/sam/g1_humble_ws/build/unitree_g1_description/ament_cmake_core/unitree_g1_descriptionConfig.cmake" "/home/sam/g1_humble_ws/build/unitree_g1_description/ament_cmake_core/unitree_g1_descriptionConfig-version.cmake" "DESTINATION" "share/unitree_g1_description/cmake")
-
-# install(FILES "/home/sam/g1_humble_ws/unitree_g1_description/package.xml" "DESTINATION" "share/unitree_g1_description")
-ament_cmake_symlink_install_files("/home/sam/g1_humble_ws/unitree_g1_description" FILES "/home/sam/g1_humble_ws/unitree_g1_description/package.xml" "DESTINATION" "share/unitree_g1_description")

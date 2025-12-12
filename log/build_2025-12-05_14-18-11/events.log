@@ -1,0 +1,33 @@
+[0.000000] (-) TimerEvent: {}
+[0.000346] (unitree_g1_description) JobQueued: {'identifier': 'unitree_g1_description', 'dependencies': OrderedDict()}
+[0.000399] (unitree_g1_description) JobStarted: {'identifier': 'unitree_g1_description'}
+[0.025373] (unitree_g1_description) JobProgress: {'identifier': 'unitree_g1_description', 'progress': 'cmake'}
+[0.028187] (unitree_g1_description) JobProgress: {'identifier': 'unitree_g1_description', 'progress': 'build'}
+[0.029686] (unitree_g1_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sam/g1_humble_ws/build/unitree_g1_description', '--', '-j12', '-l12'], 'cwd': '/home/sam/g1_humble_ws/build/unitree_g1_description', 'env': OrderedDict([('USER', 'sam'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam/g1_humble_ws'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'sam'), ('NAME', 'LIBL-GZTMKY3'), ('WSL_INTEROP', '/run/WSL/206154_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/cursor/resources/app/bin:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/sbatra/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sbatra/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sbatra/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/sam/g1_humble_ws/build/unitree_g1_description'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.093793] (unitree_g1_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.095843] (-) TimerEvent: {}
+[0.196830] (-) TimerEvent: {}
+[0.298087] (-) TimerEvent: {}
+[0.401996] (-) TimerEvent: {}
+[0.461035] (unitree_g1_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.484346] (unitree_g1_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.502528] (-) TimerEvent: {}
+[0.606983] (-) TimerEvent: {}
+[0.697376] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.698032] (unitree_g1_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.698349] (unitree_g1_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.702376] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.707211] (-) TimerEvent: {}
+[0.711649] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.720236] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.757416] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.758417] (unitree_g1_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.764209] (unitree_g1_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.769154] (unitree_g1_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.777258] (unitree_g1_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.779173] (unitree_g1_description) StdoutLine: {'line': b'-- Build files have been written to: /home/sam/g1_humble_ws/build/unitree_g1_description\n'}
+[0.807497] (-) TimerEvent: {}
+[0.820876] (unitree_g1_description) StderrLine: {'line': b'gmake: *** [Makefile:147: all] Interrupt\n'}
+[0.825395] (unitree_g1_description) CommandEnded: {'returncode': -2}
+[0.859973] (unitree_g1_description) JobEnded: {'identifier': 'unitree_g1_description', 'rc': 'SIGINT'}
+[0.864400] (-) EventReactorShutdown: {}

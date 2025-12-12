@@ -1,0 +1,2 @@
+Invoking command in '/home/sam/g1_humble_ws/build/unitree_g1_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/g1_humble_ws/build/unitree_g1_description -- -j12 -l12
+Invoked command in '/home/sam/g1_humble_ws/build/unitree_g1_description' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sam/g1_humble_ws/build/unitree_g1_description -- -j12 -l12
